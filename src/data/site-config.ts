@@ -38,81 +38,66 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'okuboy.com',
+    subtitle: 'okuboy.com/blog',
+    description: "okuboy.com's blog. A blog about web development, software engineering, and other tech-related topics, sometimes with a touch of philosophy.",
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/logo.jpg',
+        alt: 'okuboy.com logo'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'okuboy.com',
+            href: 'https://okuboy.com'
+        },
+        {
+            text: '/blog',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
+            text: '/tags',
             href: '/tags'
-        }
+        },
     ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
-    ],
-    socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
-    ],
+    // footerNavLinks: [
+    //     {
+    //         text: 'About',
+    //         href: '/about'
+    //     },
+    //     {
+    //         text: 'Contact',
+    //         href: '/contact'
+    //     },
+    //     {
+    //         text: 'Terms',
+    //         href: '/terms'
+    //     },
+    //     {
+    //         text: 'Download theme',
+    //         href: 'https://github.com/JustGoodUI/dante-astro-theme'
+    //     }
+    // ],
+    // socialLinks: [
+    //     {
+    //         text: 'Dribbble',
+    //         href: 'https://dribbble.com/'
+    //     },
+    //     {
+    //         text: 'Instagram',
+    //         href: 'https://instagram.com/'
+    //     },
+    //     {
+    //         text: 'X/Twitter',
+    //         href: 'https://twitter.com/'
+    //     }
+    // ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: "Hi! 👋",
+        text: "I'm Okuboy, a data, software, and web engineer. I write about web development, software engineering, and other tech-related topics, sometimes with a touch of philosophy.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/logo.png',
+            alt: 'okuboy.com logo'
         },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
     },
     postsPerPage: 8,
     projectsPerPage: 8
