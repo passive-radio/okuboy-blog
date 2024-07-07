@@ -4,7 +4,8 @@ excerpt: 職場で上長やそれより偉い人に何らかの提案や忠言�
 publishDate: '2024/07/06'
 isFeatured: true
 tags:
-  - Guide
+  - Essay
+  - Career
 seo:
   image:
     src: '/logo.png'

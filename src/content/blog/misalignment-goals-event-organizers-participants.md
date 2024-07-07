@@ -4,7 +4,7 @@ excerpt: イベント主催者と参加者の目的の不一致について考�
 publishDate: '2024/07/06'
 isFeatured: true
 tags:
-  - Guide
+  - Essay
 seo:
   image:
     src: '/logo.png'
