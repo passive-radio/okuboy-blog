@@ -38,7 +38,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'okuboy.com',
+    title: 'okuboy.com - blog',
     subtitle: 'okuboy.com/blog',
     description: "okuboy.com's blog. A blog about web development, software engineering, and other tech-related topics, sometimes with a touch of philosophy.",
     image: {
