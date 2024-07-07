@@ -52,11 +52,11 @@ const siteConfig: SiteConfig = {
         },
         {
             text: '/blog',
-            href: '/'
+            href: 'https://okuboy.com/blog'
         },
         {
             text: '/tags',
-            href: '/tags'
+            href: 'https://okuboy.com/blog/tags'
         },
     ],
     // footerNavLinks: [
