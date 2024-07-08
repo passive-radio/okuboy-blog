@@ -92,6 +92,11 @@ export default {
       let content = await originResponse.text();
 
       // Rewrite resource paths
+      content = content.replace(/src="\/public\//g, 'src="/');
+      content = content.replace(/href="\/public\//g, 'href="/');
+      content = content.replace(/from="\/public\//g, 'from="/');
+
+      // Rewrite other absolute paths
       content = content.replace(/src="\//g, 'src="/blog/');
       content = content.replace(/href="\//g, 'href="/blog/');
       content = content.replace(/from="\//g, 'from="/blog/');
